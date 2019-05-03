@@ -28,7 +28,6 @@ hs_err_pid*
 .idea/checkstyle-idea.xml
 .idea/dbnavigator.xml
 .idea/workspace.xml
-src/main/java/com/rabbitmq/rabbitmqapi/dlx/
 /.idea/
 /learn-rabbitmq.iml
 /target/
