@@ -45,6 +45,7 @@ public class RabbitMQConfigTest {
         rabbitAdmin.declareBinding(BindingBuilder.bind(new Queue(fanoutQueue, false))
                 .to(new FanoutExchange(fanoutExchange, false, false)));
 
+        rabbitAdmin.purgeQueue(topicQueue, false);
 
     }
 
